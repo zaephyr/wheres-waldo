@@ -1,5 +1,7 @@
 # wheres-waldo
 
+link to site:  https://zaephyr.github.io/wheres-waldo/
+
 ## Project setup
 ```
 npm install
