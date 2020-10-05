@@ -1,0 +1,194 @@
+{
+    "Scourge": {
+        "characters": [
+            {
+                "title": "smith",
+                "name": "Agent Smith",
+                "url": "https://i.redd.it/8uzj6arxtfc31.jpg",
+                "film": "The Matrix",
+                "difficulty": "medium",
+                "selected": false,
+                "x": 680,
+                "y": 180
+            },
+            {
+                "title": "bender",
+                "name": "Bender",
+                "url": "https://en.wikipedia.org/wiki/Bender_(Futurama)#/media/File:Bender_Rodriguez.png",
+                "film": "Futurama",
+                "difficulty": "hard",
+                "selected": false,
+                "x": 195,
+                "y": 470
+            },
+            {
+                "title": "data",
+                "name": "Data",
+                "film": "Star Trek",
+                "difficulty": "easy",
+                "selected": false,
+                "url": "https://nerdist.com/wp-content/uploads/2019/08/intro-1497367373.jpg",
+                "x": 820,
+                "y": 1070
+            },
+            {
+                "title": "r2-d2",
+                "name": "R2-D2",
+                "url": "https://en.wikipedia.org/wiki/R2-D2#/media/File:R2-D2_Droid.png",
+                "film": "Star Wars",
+                "difficulty": "medium",
+                "selected": false,
+                "x": 255,
+                "y": 750
+            },
+            {
+                "title": "number-six",
+                "name": "Number Six",
+                "url": "https://en.wikipedia.org/wiki/Number_Six_(Battlestar_Galactica)#/media/File:Number_Six_Tricia_Helfer.jpg",
+                "film": "Battlestar Galactica",
+                "difficulty": "easy",
+                "selected": false,
+                "x": 100,
+                "y": 1345
+            },
+            {
+                "title": "wall-e",
+                "name": "Wall-e",
+                "url": "https://vignette.wikia.nocookie.net/pixar/images/d/de/Wall%E2%80%A2e_clipped_rev_1.png/revision/latest?cb=20170807223723",
+                "film": "Wall-e",
+                "difficulty": "hard",
+                "selected": false,
+                "x": 845,
+                "y": 1375
+            }
+        ]
+    },
+    "Raid": {
+        "characters": [
+            {
+                "title": "xena",
+                "name": "Xena",
+                "url": "https://en.wikipedia.org/wiki/Xena#/media/File:Returnofcallisto_02.jpg",
+                "film": "Xena: Warrior Princess",
+                "difficulty": "easy",
+                "selected": false,
+                "x": 385,
+                "y": 140
+            },
+            {
+                "title": "rachel",
+                "name": "Rachel",
+                "url": "https://en.wikipedia.org/wiki/Replicant#/media/File:BladeRunner_Rachael.jpg",
+                "film": "Blade Runner",
+                "difficulty": "easy",
+                "selected": false,
+                "x": 565,
+                "y": 460
+            },
+            {
+                "title": "space-invader",
+                "name": "Space Invader Alien",
+                "film": "Space Invaders",
+                "difficulty": "medium",
+                "selected": false,
+                "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Space_invaders_alien.svg",
+                "x": 945,
+                "y": 1365
+            },
+            {
+                "title": "eleven",
+                "name": "Eleven",
+                "url": "https://en.wikipedia.org/wiki/Eleven_(Stranger_Things)#/media/File:Eleven_(Stranger_Things).jpg",
+                "film": "Stranger Things",
+                "difficulty": "medium",
+                "selected": false,
+                "x": 980,
+                "y": 930
+            },
+            {
+                "title": "fsociety",
+                "name": "FSociety",
+                "url": "https://vignette.wikia.nocookie.net/villains/images/4/4a/Wiki-logo.jpg",
+                "film": "Mr. Robot",
+                "difficulty": "hard",
+                "selected": false,
+                "x": 75,
+                "y": 1255
+            },
+            {
+                "title": "chappie",
+                "name": "Chappie",
+                "url": "https://fi.wikipedia.org/wiki/Chappie#/media/Tiedosto:Chappie_poster.jpg",
+                "film": "Chappie",
+                "difficulty": "hard",
+                "selected": false,
+                "x": 775,
+                "y": 1525
+            }
+        ]
+    },
+    "Incident": {
+        "characters": [
+            {
+                "title": "pickle-rick",
+                "name": "Pickle Rick",
+                "url": "https://i.redd.it/8uzj6arxtfc31.jpg",
+                "film": "Rick and Morty",
+                "difficulty": "hard",
+                "selected": false,
+                "x": 47,
+                "y": 1525
+            },
+            {
+                "title": "gizmo",
+                "name": "Gizmo",
+                "url": "https://vignette.wikia.nocookie.net/p__/images/6/62/Gizmo_%28Gremlins%29.png/revision/latest?cb=20130512002219&path-prefix=protagonist",
+                "film": "Gremlins",
+                "difficulty": "hard",
+                "selected": false,
+                "x": 205,
+                "y": 1310
+            },
+            {
+                "title": "pale-man",
+                "name": "Pale Man",
+                "film": "Pan's Labyrinth",
+                "difficulty": "medium",
+                "selected": false,
+                "url": "https://nocountryforbadfilm.files.wordpress.com/2018/06/pans.jpeg",
+                "x": 840,
+                "y": 1390
+            },
+            {
+                "title": "chucky",
+                "name": "Chucky",
+                "url": "https://en.wikipedia.org/wiki/Chucky_(character)#/media/File:Chucky_(Child's_Play).jpg",
+                "film": "Child's Play",
+                "difficulty": "medium",
+                "selected": false,
+                "x": 50,
+                "y": 300
+            },
+            {
+                "title": "jason",
+                "name": "Jason",
+                "url": "https://upload.wikimedia.org/wikipedia/en/f/f7/Jason_Voorhees_%28Ken_Kirzinger%29.jpg",
+                "film": "Friday the 13th",
+                "difficulty": "easy",
+                "selected": false,
+                "x": 205,
+                "y": 475
+            },
+            {
+                "title": "slimer",
+                "name": "Slimer",
+                "url": "https://upload.wikimedia.org/wikipedia/en/4/4f/Slimer.jpeg",
+                "film": "Ghost Busters",
+                "difficulty": "easy",
+                "selected": false,
+                "x": 645,
+                "y": 68
+            }
+        ]
+    }
+}
