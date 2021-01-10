@@ -139,6 +139,8 @@ export default {
 }
 
 .char-btn {
+    cursor: pointer;
+
     color: #2d3436;
     padding: 10px;
     display: flex;

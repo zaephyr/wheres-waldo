@@ -2,13 +2,10 @@
     <div id="app">
         <div class="home-page" v-show="!gameStarted">
             <h1><span style="color: var(--main-color)">See</span>-fi</h1>
-            <h3>
-                Find listed character in these detailed illustrations
-            </h3>
+            <h3>Find listed character in these detailed illustrations</h3>
             <p>&gt;&gt; Click an image to start playing &lt;&lt;</p>
-
-            <carousel :per-page="1" :navigationEnabled="true" :mouse-drag="false" class="carousel">
-                <slide v-for="(image, index) in images" :key="index">
+            <carousel-3d class="courousel" :count="3" :display="3" :width="270" :height="405">
+                <slide v-for="image in images" :index="image.index" :key="image.index">
                     <div
                         class="home-img"
                         :style="{
@@ -29,7 +26,7 @@
                         </div>
                     </div>
                 </slide>
-            </carousel>
+            </carousel-3d>
         </div>
         <div class="see-fi" v-show="gameStarted">
             <app-side-bar
@@ -60,7 +57,7 @@
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel';
+import { Carousel3d, Slide } from 'vue-carousel-3d';
 import SideBar from './components/SideBar.vue';
 import Game from './components/Game.vue';
 import HighScores from './components/HighScores.vue';
@@ -73,7 +70,7 @@ import img3 from '@/assets/img/sci-fi3.jpg';
 export default {
     name: 'App',
     components: {
-        Carousel,
+        Carousel3d,
         Slide,
         appSideBar: SideBar,
         appGame: Game,
@@ -88,6 +85,7 @@ export default {
             images: {
                 Scourge: {
                     name: 'Scourge',
+                    index: 0,
                     src: img1,
                     author: 'Laurie Greasley',
                     title: 'Scourge of the Machines',
@@ -95,6 +93,8 @@ export default {
                 },
                 Raid: {
                     name: 'Raid',
+                    index: 1,
+
                     src: img2,
                     author: 'Josan Gonzalez & Laurie Greasley',
                     title: 'The Raid',
@@ -102,6 +102,8 @@ export default {
                 },
                 Incident: {
                     name: 'Incident',
+                    index: 2,
+
                     src: img3,
                     author: 'Josan Gonzalez & Laurie Greasley',
                     title: 'Incident on Line 13',
@@ -116,7 +118,7 @@ export default {
             this.gameStarted = true;
             this.selectPic = obj.name;
             this.startTime = Date.now();
-            this.characters = JSON.parse(JSON.stringify(this.images[this.selectPic].characters));
+            this.characters = JSON.parse(JSON.stringify(obj.characters));
         },
         viewHighScores(val) {
             this.selectPic = val;
@@ -135,7 +137,7 @@ export default {
 
 <style>
 :root {
-    --main-color: #81ecec;
+    --main-color: #b088f9;
 }
 
 * {
@@ -156,7 +158,13 @@ html {
 }
 
 .carousel {
-    width: 270px;
+    width: 400px;
+    margin: auto;
+}
+
+.home-page {
+    max-width: 550px;
+    min-width: auto;
     margin: auto;
 }
 
@@ -215,6 +223,7 @@ html {
     justify-content: space-between;
 }
 .fas {
+    cursor: pointer;
     font-size: 30px;
     padding: 10px;
 }
@@ -232,6 +241,11 @@ html {
     flex-grow: 5;
     background: black;
     overflow: auto;
-    overflow-x: hidden;
+}
+
+.pic-desc {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 </style>
